@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.minorcoding.simpleclock.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="194dp"
+        android:gravity="center_horizontal" >
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.38"
+            android:gravity="center_horizontal"
+            android:shadowColor="#EBF5EC"
+            android:shadowRadius="9"
+            android:text="31st\nNovember"
+            android:textColor="#2CE644"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/timeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.32"
+            android:gravity="center_vertical|center_horizontal"
+            android:shadowColor="#EBF5EC"
+            android:shadowRadius="9"
+            android:text="23:59:59\nDST"
+            android:textColor="#2CE644"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_marginBottom="104dp"
+        android:gravity="fill_horizontal" >
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/textMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dayMon"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#18522B" />
+
+        <View
+            android:id="@+id/View08"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/textTue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dayTue"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#18522B" />
+
+        <View
+            android:id="@+id/View07"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/textWed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dayWed"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#18522B" />
+
+        <View
+            android:id="@+id/View05"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/textThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dayThu"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#18522B" />
+
+        <View
+            android:id="@+id/View06"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/textFri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dayFri"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#18522B" />
+
+        <View
+            android:id="@+id/View03"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/textSat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daySat"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#18522B" />
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/textSun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daySun"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#18522B" />
+
+        <View
+            android:id="@+id/View04"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+    </LinearLayout>
+
+</RelativeLayout>
